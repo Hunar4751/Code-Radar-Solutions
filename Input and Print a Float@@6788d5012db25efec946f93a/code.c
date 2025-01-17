@@ -1,6 +1,8 @@
 #include <stdio.h>
 
 int main(){
-    float a = scanf();
+    float a;
+    scanf("%f",a)
     printf("%f",a);
+    retuen 0 ;
 }
