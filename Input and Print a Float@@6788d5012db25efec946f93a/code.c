@@ -4,5 +4,5 @@ int main(){
     float a;
     scanf("%f",&a)
     printf("%f",a);
-    retuen 0 ;
+    return 0 ;
 }
