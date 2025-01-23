@@ -4,9 +4,9 @@ int main() {
     int a,b;
     scnaf("%d %d",&a,&b);
     if (a>b){
-        printf("%d",1);
+        printf("%d\n",1);
     }else{
-        print("%d",0);
+        print("%d\n",0);
     }
     return 0;
 }
