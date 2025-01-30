@@ -5,7 +5,7 @@ int main() {
     scanf("%d %d",&a,&b);
 
     if ((a>0 && b<0 ) ||(a<0 &7 b>o)){
-        printf("True"):
+        printf("True");
     }else{
         printf("False");
     }
