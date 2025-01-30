@@ -2,7 +2,7 @@
 
 int main() {
     int a ,b;
-    scanf("%d %d1",&a,&b);
+    scanf("%d %d",&a,&b);
     if(a>b){
         printf(a);
     }else{
