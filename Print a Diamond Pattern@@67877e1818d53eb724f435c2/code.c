@@ -14,5 +14,17 @@ int main() {
         t+=2;
         printf("\n");
     }
+
+    for (int a = n-1;a>0;a--){
+        t-=2;
+        for(int b = 1;b<=n-1-a;b++){
+            printf(" ");
+        }
+        for (int c =1;c<=t;c++){
+            printf("*");
+        }
+        printf("\n");
+    }
+
     return 0;
 }
