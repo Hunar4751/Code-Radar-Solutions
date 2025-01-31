@@ -17,7 +17,7 @@ int main() {
 
     for (int a = n-1;a>0;a--){
         t-=4;
-        for(int b = 1;b<=n-1-a;b++){
+        for(int b =n-1-a;b>0;b--){
             printf(" ");
         }
         for (int c =1;c<=t;c++){
