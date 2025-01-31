@@ -14,9 +14,10 @@ int main() {
         t+=2;
         printf("\n");
     }
+    t-=2;
 
     for (int a = n-1;a>0;a--){
-        t-=4;
+        t-=2;
         for(int b =n-1-a;b>0;b--){
             printf(" ");
         }
