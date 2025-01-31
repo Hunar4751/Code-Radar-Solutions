@@ -12,6 +12,7 @@ int main() {
             printf("*");
         }
         t+=2;
+        printf("\n");
     }
     return 0;
 }
