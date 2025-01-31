@@ -3,7 +3,7 @@
 int main() {
     int a;
     scanf("%d",&a);
-    if (100>=a>=90){
+    if (a>=90){
         printf("A");
     }else if (a >=80){
         printf("B");
@@ -11,7 +11,7 @@ int main() {
         printf("C");
     }else if(a>=60){
         printf("D");
-    }else{
+    }else if(a<60){
         printf("F");
     }
 
