@@ -9,6 +9,7 @@ int main() {
             printf("%d",k);
             k++;
         }
+        printf("\n");
     }
     return 0;
 }
