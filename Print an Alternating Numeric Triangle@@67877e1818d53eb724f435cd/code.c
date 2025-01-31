@@ -11,7 +11,7 @@ int main() {
                 printf("0 ");
             }
         }
-        print("\hn")
+        print("\n");
     }
     return 0;
 }
