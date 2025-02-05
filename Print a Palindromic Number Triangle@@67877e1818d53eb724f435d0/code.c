@@ -12,9 +12,9 @@ int main() {
             printf("%d",j);
             k=j;
         }
-        for (int a = k;a>0;a++){
-            printf("%d",a);
-        }
+        // for (int a = k;a>0;a++){
+        //     printf("%d",a);
+        // }
 
         printf("\n");
     }
