@@ -9,7 +9,6 @@ int main() {
         scanf("%d",&a[i]);
     }
     scanf("%d",&k);
-       k=4;
     for(int i = 0 ; i <n;i++){
        
         b[i] = a[(i+k)%n];
