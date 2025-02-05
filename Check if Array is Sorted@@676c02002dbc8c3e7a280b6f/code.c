@@ -3,14 +3,16 @@
 int main() {
     int n ;
     int k ;
+    k=0;
     scanf("%d",&n);
     int a[n];
     for (int i = 0; i<n;i++){
-        scanf("%d",a[i]);
+        scanf("%d",&a[i]);
     }
     for (int j = 0 ;j<n-1;j++){
         if(a[j]>a[j+1]){
             k=1;
+            break;
         }
     }
     if(k==1){
