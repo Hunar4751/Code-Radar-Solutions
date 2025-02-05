@@ -9,7 +9,6 @@ int main() {
         }
         for (int b = 1;b<=i;b++){
             printf("%d",b);
-            k=b;
         }
         }
     return 0;
