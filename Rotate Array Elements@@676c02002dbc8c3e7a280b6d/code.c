@@ -8,13 +8,13 @@ int main() {
         scanf("%d",&a[i]);
     }
     scanf("%d",&k);
-    for(int i = 0 ; i <n;i++){
-        if (i+k<0){
-        a[i] = a[i+k];}
-        else{
-            a[i] = a[i+k-n];
-        }
-    }
+    // for(int i = 0 ; i <n;i++){
+    //     if (i+k<0){
+    //     a[i] = a[i+k];}
+    //     else{
+    //         a[i] = a[i+k-n];
+    //     }
+    // }
     for(int i = 0 ;i<n;i++){
         printf("%d",a[i]);
         printf("\n");
