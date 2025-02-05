@@ -8,9 +8,9 @@ int main() {
         for (int j = 1;j<=n-i;j++){
             printf(" ");
         }
-        for (int j = 1;j<=i;j++){
-            printf("%d",j);
-            k=j;
+        for (int b = 1;b<=i;b++){
+            printf("%d",b);
+            k=b;
         }
         // for (int a = k;a>0;a++){
         //     printf("%d",a);
