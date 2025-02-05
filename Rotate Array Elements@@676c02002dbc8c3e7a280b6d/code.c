@@ -10,7 +10,7 @@ int main() {
     }
     scanf("%d",&k);
     for(int i = 0 ; i <n;i++){
-        if (i+k>=n){
+        if (i+k<=n){
         b[i] = a[i+k];}
         else{
             b[i] = a[i+k-n];
