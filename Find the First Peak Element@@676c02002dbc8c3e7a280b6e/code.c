@@ -15,11 +15,6 @@ int main() {
             found = 1;
             break;
         }
-        if(found == 1){
-        printf("%d",a[i]);
-     }else{
-        printf("-1");
-     }
      }
      
 
