@@ -1,18 +1,21 @@
 #include <stdio.h>
 
 int main() {
-    int n ;
+    int n,f ;
     scanf("%d",&n);
     int a[n];
     for(int i=0;i<n;i++){
         scanf("%d",&a[i]);
     }
-    for (int i =0 ;i<100;i++){
+    for (int i =0 ;i<500;i++){
+        f=0;
         for(int j=0;j<n;j++){
-            if(i != a[j]){
-                printf("%d",i);
-                break;
+            if(i == a[j]){
+                f=1;
             }
+        }
+        if(f == 0){
+            printtf("%d",i);
         }
     }
     return 0;
