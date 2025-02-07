@@ -14,13 +14,13 @@ int main() {
         j--;
         i++;
     }
-    // for(int d =0;d<n;d++){
-    //     if(a[d]!=b[d]){
-    //         printf("NO");
-    //         breaK;
-    //     }
+    for(int d =0;d<n;d++){
+        if(a[d]!=b[d]){
+            printf("NO");
+            breaK;
+        }
         
-    // }
+   }
 
     return 0;
 }
