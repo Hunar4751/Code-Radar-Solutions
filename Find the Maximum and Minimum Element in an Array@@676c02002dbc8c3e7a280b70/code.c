@@ -18,6 +18,6 @@ int main() {
         }
     }
 
-    printf("%d %d",l,h);
+    // printf("%d %d",l,h);
     return 0;
 }
