@@ -15,11 +15,11 @@ int main() {
     //     j--;
     //     i++;
     // }
-    for(int i =0;i<n;i++){
-        if(a[i]!=b[i]){
-            printf("NO");
-            breaK;
-        }
+    // for(int i =0;i<n;i++){
+    //     if(a[i]!=b[i]){
+    //         printf("NO");
+    //         breaK;
+    //     }
         
     }
 
