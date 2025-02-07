@@ -15,10 +15,10 @@ int main() {
         i++;
     }
     for(int d =0;d<n;d++){
-        if(a[d]!=b[d]){
-            // printf("%s","NO");
-            breaK;
-        }
+        // if(a[d]!=b[d]){
+        //     // printf("%s","NO");
+        //     breaK;
+        // }
         
    }
 
