@@ -9,7 +9,7 @@ int main() {
     }
     scanf("%d",&k);
     for(int i = 0 ; i<n;i++){
-        b[i] = a[(i+k)%(n-1)];
+        b[i] = a[(i+k)%n];
     }
     for(int i =0;i<n;i++){
         printf("%d ",b[i]);
