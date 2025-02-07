@@ -8,12 +8,13 @@ int main() {
         scanf("%d",&a[i]);
     }
     b=a[0];
-    h = a[0];
+    
     for (int i = 0 ; i <n;i++){
         if(a[i]>b){
             b=a[i];
         }
     }
+    h = a[0];
     for(int i=0;i<n;i++){
         if(h<a[i] && h !=b){
             h=a[i];
