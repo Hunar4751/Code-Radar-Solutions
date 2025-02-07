@@ -10,7 +10,7 @@ int main() {
     for(int i=0;i<n;i++){
         nprime=0;
         for(int j = a[i]-1;j>1;j--){
-           if(a[i]<1){
+           if(a[i]<=1){
             nprime=1;
            }
            else if(a[i]%j==0){
