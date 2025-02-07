@@ -18,10 +18,10 @@ int main() {
         if(c>p){
             p=c;
             d=a[i];
-        // }else if(c==p){
-        //     if(d>a[i]{
-        //         d=a[i];
-        //     })
+        }else if(c==p){
+            if(d>a[i]{
+                d=a[i];
+            })
         }
     }
     printf("%d",d);
