@@ -7,8 +7,8 @@ int main() {
     for(int p=0;p<n;p++){
         scanf("%d",&a[p]);
     }
-    // i = 0;
-    // j = n;
+    i = 0;
+    j = n;
     // while(i<n,j>=0){
     //     b[j] = a[i];
     //     j--;
