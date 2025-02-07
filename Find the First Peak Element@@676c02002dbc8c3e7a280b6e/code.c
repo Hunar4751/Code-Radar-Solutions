@@ -18,9 +18,11 @@ int main() {
             printf("%d",a[i]);
             found = 1;
             break;
-        }
-        
-     }
+        }}
+
+    if(!found && a[n]>a[n-1]){
+        printf("%d",a[n]);
+    }
      if (found==0){
         printf("-1");
      }
