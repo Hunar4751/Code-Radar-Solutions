@@ -14,9 +14,9 @@ int main() {
             printf("%d",a[i]);
             f = 1;
             break;
-        }if(f==0){
+        }}
+     if(f==0){
             printf("-1");
         }
-    }
     return 0;
 }
