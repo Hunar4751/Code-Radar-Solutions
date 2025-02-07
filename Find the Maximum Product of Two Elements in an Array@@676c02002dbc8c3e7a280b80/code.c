@@ -15,6 +15,6 @@ int main() {
     //         }
     //     }
     // }
-    printf("%d",p);
+    // printf("%d",p);
     return 0;
 }
