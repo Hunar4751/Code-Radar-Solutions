@@ -21,8 +21,8 @@ int main() {
             break;
         }}
 
-    if(found==0 && a[n]>a[n-1]){
-        printf("%d",a[n]);
+    if(found==0 && a[n-1]>a[n-2]){
+        printf("%d",a[n-1]);
         found = 1;
     }
      if (found==0){
