@@ -17,10 +17,10 @@ int main() {
     for(int d =0;d<n;d++){
         if(a[d]!=b[d]){
             printf("NO");
-            break;
+            return 0;
         }
         
    }
-
+   printf("YES");
     return 0;
 }
