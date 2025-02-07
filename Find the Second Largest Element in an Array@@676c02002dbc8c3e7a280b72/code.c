@@ -13,12 +13,16 @@ int main() {
             b=a[i];
         }
     }
-    h = -789445;
+    h =-789456;
     for(int i=0;i<n;i++){
-        if(b!=a[i]){            
-        if(h<a[i]){
+        if(h<a[i] && a[i]!=b){
             h=a[i];
-        }}}
+        }
+    }
+    if(h == -789456){
+        printf("-1");
+    }else{        
     printf("%d",h);
+    }
     return 0;
 }
