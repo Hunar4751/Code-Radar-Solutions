@@ -12,8 +12,9 @@ int main() {
     for(int i =0;i<n;i++){
         if(a[i]==k){
             printf("%d",a[i]);
+            f = 1;
             break;
-        }else{
+        }if(f==0){
             printf("-1");
         }
     }
