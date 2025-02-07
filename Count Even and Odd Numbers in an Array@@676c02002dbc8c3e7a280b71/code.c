@@ -16,6 +16,6 @@ int main() {
             o+=1;
         }
     }
-printf("%d %d",e,o)
+printf("%d %d",e,o);
     return 0;
 }
