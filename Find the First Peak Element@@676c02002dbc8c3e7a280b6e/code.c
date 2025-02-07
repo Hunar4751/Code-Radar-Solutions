@@ -15,7 +15,7 @@ int main() {
     }
     
     for(int i = 1; i<=n-2;i++){
-        if(foumd == 0&&a[i]>a[i-1] && a[i]>a[i+1]){
+        if(found == 0&&a[i]>a[i-1] && a[i]>a[i+1]){
             printf("%d",a[i]);
             found = 1;
             break;
