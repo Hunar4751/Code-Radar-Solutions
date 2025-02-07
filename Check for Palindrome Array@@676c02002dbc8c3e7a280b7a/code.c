@@ -8,7 +8,7 @@ int main() {
         scanf("%d",&a[p]);
     }
     i = 0;
-    j = n;
+    j = n-1;
     while(i<n,j>=0){
         b[j] = a[i];
         j--;
@@ -16,7 +16,7 @@ int main() {
     }
     for(int d =0;d<n;d++){
         if(a[d]!=b[d]){
-            printf("%s","NO");
+            printf("NO");
             break;
         }
         
