@@ -9,13 +9,13 @@ int main() {
         scanf("%d",&a[i]);
     }
 
-    for(int j = 0; j <n;j++){
-        if(a[j]%2 == 0){
-            e+=1;
-        }else{
-            o+=1;
-        }
-    }
-printf("%d %d",e,o);
-    return 0;
+//     for(int j = 0; j <n;j++){
+//         if(a[j]%2 == 0){
+//             e+=1;
+//         }else{
+//             o+=1;
+//         }
+//     }
+// printf("%d %d",e,o);
+//     return 0;
 }
