@@ -10,11 +10,11 @@ int main() {
     }
     for(int i =0;i<n;i++){
         c=0;
-        // for(int j=i+1;j<n;j++){
-        //     if(a[i]==a[j]){
-        //         c+=1;
-        //     }
-        // }
+        for(int j=i+1;j<n;j++){
+            if(a[i]==a[j]){
+                c+=1;
+            }
+        }
         // if(c>p){
         //     p=c;
         //     d=a[i];
