@@ -13,14 +13,12 @@ int main() {
             b=a[i];
         }
     }
-    h = a[0];
+    h = -789445;
     for(int i=0;i<n;i++){
         if(b!=a[i]){            
         if(h<a[i]){
             h=a[i];
-        }
-        }
-    }
+        }}}
     printf("%d",h);
     return 0;
 }
