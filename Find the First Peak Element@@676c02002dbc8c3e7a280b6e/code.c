@@ -11,17 +11,19 @@ int main() {
 
     if(a[0]>a[1]){
         printf("%d",a[0]);
+        found == 1;
     }
     
     for(int i = 1; i<=n-2;i++){
-        if(a[i]>a[i-1] && a[i]>a[i+1]){
+        if(foumd == 0&&a[i]>a[i-1] && a[i]>a[i+1]){
             printf("%d",a[i]);
             found = 1;
             break;
         }}
 
-    if(!found && a[n]>a[n-1]){
+    if(found==0 && a[n]>a[n-1]){
         printf("%d",a[n]);
+        found == 1;
     }
      if (found==0){
         printf("-1");
