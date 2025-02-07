@@ -15,8 +15,8 @@ int main() {
         j--;
         i++;
     }
-    for(int i =0;i<n;i++){
-        if(a[i]!=b[i]){
+    for(int d =0;d<n;d++){
+        if(a[d]!=b[d]){
             printf("NO");
             breaK;
         }
