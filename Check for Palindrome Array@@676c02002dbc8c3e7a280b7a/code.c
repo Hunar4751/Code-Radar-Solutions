@@ -7,7 +7,8 @@ int main() {
     int a[n],b[n];
     for(int i=0;i<n;i++){
         scanf("%d",&a[i]);
-     }
+    }
+    i = 0;
     // j = n;
     // while(i<n,j>=0){
     //     b[j] = a[i];
