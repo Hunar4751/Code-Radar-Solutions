@@ -9,11 +9,11 @@ int main() {
     }
     i = 0;
     j = n;
-    // while(i<n,j>=0){
-    //     b[j] = a[i];
-    //     j--;
-    //     i++;
-    // }
+    while(i<n,j>=0){
+        b[j] = a[i];
+        j--;
+        i++;
+    }
     // for(int d =0;d<n;d++){
     //     if(a[d]!=b[d]){
     //         printf("NO");
