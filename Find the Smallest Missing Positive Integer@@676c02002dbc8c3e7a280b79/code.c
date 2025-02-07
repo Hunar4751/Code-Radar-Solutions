@@ -16,6 +16,7 @@ int main() {
         }
         if(f == 0){
             printf("%d",i);
+            break;
         }
     }
     return 0;
