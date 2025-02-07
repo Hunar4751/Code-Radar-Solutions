@@ -16,7 +16,7 @@ int main() {
             break;
         }
         if(found == 1){
-        printf("%d",a[]);
+        printf("%d",a[i]);
      }else{
         printf("-1");
      }
