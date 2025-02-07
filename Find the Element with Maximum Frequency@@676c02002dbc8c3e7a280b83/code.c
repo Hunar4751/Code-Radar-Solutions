@@ -15,14 +15,14 @@ int main() {
                 c+=1;
             }
         }
-        // if(c>p){
-        //     p=c;
-        //     d=a[i];
+        if(c>p){
+            p=c;
+            d=a[i];
         // }else if(c==p){
-        //     if(d>a[i]{
-        //         d=a[i];
-        //     })
-        // }
+            if(d>a[i]{
+                d=a[i];
+            })
+        }
     }
     printf("%d",d);
     return 0;
