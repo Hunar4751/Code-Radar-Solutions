@@ -1,6 +1,7 @@
 #include <stdio.h>
 int main() {
-    int n,p=o;
+    int n,p;
+    p=0;
     scanf("%d",&n);
     int a[n];
     // for(int i =0;i<n;i++){
