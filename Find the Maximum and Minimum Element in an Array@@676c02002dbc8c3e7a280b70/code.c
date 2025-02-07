@@ -9,14 +9,14 @@ int main() {
     }
     h = a[0];
     l=a[0];
-    for(i = 0 ; i<n ; i++){
-        if(a[i]>h){
-            h = a[i];
-        }
-        if(a[i]<l){
-            l = a[i];
-        }
-    }
+    // for(i = 0 ; i<n ; i++){
+    //     if(a[i]>h){
+    //         h = a[i];
+    //     }
+    //     if(a[i]<l){
+    //         l = a[i];
+    //     }
+    // }
 
     // printf("%d %d",l,h);
     return 0;
