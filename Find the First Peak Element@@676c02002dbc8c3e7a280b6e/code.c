@@ -11,7 +11,7 @@ int main() {
 
     if(a[0]>a[1]){
         printf("%d",a[0]);
-        found == 1;
+        found = 1;
     }
     
     for(int i = 1; i<=n-2;i++){
@@ -23,7 +23,7 @@ int main() {
 
     if(found==0 && a[n]>a[n-1]){
         printf("%d",a[n]);
-        found == 1;
+        found = 1;
     }
      if (found==0){
         printf("-1");
