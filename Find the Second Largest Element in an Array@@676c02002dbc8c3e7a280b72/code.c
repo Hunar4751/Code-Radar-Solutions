@@ -13,11 +13,12 @@ int main() {
             b=a[i];
         }
     }
-    printf("%d",b);
     h = a[0];
     for(int i=0;i<n;i++){
-        if(h<a[i] && h !=b){
+        if(b!=a[i]){            
+        if(h<a[i]){
             h=a[i];
+        }
         }
     }
     printf("%d",h);
