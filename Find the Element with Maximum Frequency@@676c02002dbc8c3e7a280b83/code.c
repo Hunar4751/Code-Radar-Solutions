@@ -19,9 +19,9 @@ int main() {
             p=c;
             d=a[i];
         // }else if(c==p){
-            if(d>a[i]{
-                d=a[i];
-            })
+        //     if(d>a[i]{
+        //         d=a[i];
+        //     })
         }
     }
     printf("%d",d);
