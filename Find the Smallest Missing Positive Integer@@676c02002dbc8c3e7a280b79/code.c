@@ -15,7 +15,7 @@ int main() {
             }
         }
         if(f == 0){
-            printtf("%d",i);
+            printf("%d",i);
         }
     }
     return 0;
