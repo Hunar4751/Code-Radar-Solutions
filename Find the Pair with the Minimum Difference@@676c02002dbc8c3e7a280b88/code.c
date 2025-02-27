@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(){
-    int n,x,y;
+    int n,x,y,k;
     int count =1000;
     scanf("%d",&n);
 
