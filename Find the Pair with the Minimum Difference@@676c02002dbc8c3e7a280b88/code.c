@@ -30,6 +30,9 @@ int main(){
             }
         }
     }
+    if(x<y)
     printf("%d %d",x,y);
+    else
+    printf("%d %d",y,x);
     return 0;
 }
