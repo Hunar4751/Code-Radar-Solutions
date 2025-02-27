@@ -3,6 +3,9 @@ int main(){
     int n,x,y;
     int count =100;
     scanf("%d",&n);
+    if (n ==1){
+    printf("-1");
+    return 0;}
     int a[n];
     for(int i = 0;i<n;i++){
         scanf("%d",&a[i]);
