@@ -11,6 +11,7 @@ int main(){
         for(int j =0 ; j<n;j++){
             if(i!=j){
                 if(count>a[i]-a[j]){
+                    count = a[i]-a[j];
                     x=a[i];
                     y=a[j];
                 }
