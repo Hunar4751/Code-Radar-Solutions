@@ -3,8 +3,6 @@ int main(){
     int n,x,y,k;
     int count =1000;
     scanf("%d",&n);
-
-
     if (n ==1){
     printf("-1");
     return 0;}
