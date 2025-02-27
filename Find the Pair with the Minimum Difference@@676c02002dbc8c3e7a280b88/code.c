@@ -23,7 +23,7 @@ int main(){
                     k=k*-1;
                 }
                 if(count>k){
-                    count = a[i]-a[j];
+                    count = k;
                     x=a[i];
                     y=a[j];
                 }
