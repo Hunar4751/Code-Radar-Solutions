@@ -18,7 +18,7 @@ int main(){
     for (int i =0;i<n;i++){
         for(int j =0 ; j<n;j++){
             if(i!=j){
-                k =a[i]-a[j]
+                k =a[i]-a[j];
                 if(k<0){
                     k=k*-1;
                 }
