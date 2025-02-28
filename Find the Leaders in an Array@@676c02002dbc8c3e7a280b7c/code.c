@@ -12,7 +12,10 @@ int main(){
             if(a[i]>=a[j]){
                k=1;
             }
-            printf("%d ",a[i]);
+        }
+        if(k){
+                        printf("%d ",a[i]);
+
         }
     }
     return 0;
