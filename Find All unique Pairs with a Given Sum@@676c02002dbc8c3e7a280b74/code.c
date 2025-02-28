@@ -12,6 +12,6 @@ int main(){
             printf("%d %d",a[i],a[j]);
         }    
         }
-    }p
+    }
 return 0;
 }
