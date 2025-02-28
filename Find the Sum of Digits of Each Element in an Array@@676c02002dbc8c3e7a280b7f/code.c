@@ -14,9 +14,9 @@ int main(){
         d= k%10;
         sum +=d;
         k = k/10;
-        if(a[i] <0){
-            sum*=-1;
-        }
+        // if(a[i] <0){
+        //     sum*=-1;
+        // }
         }
         printf("%d ",sum);
     }
