@@ -7,8 +7,8 @@ int main(){
         scanf("%d",&a[i]);
     }scanf("%d",&k);
     for(int i =0;i<n;i++){
-        for(int j =i;j<n;j++){
-        if(i!=j && k== a[i]+a[j]){
+        for(int j =1+i;j<n;j++){
+        if(k== a[i]+a[j]){
             printf("%d %d",a[i],a[j]);
             printf("\n");
         }    
