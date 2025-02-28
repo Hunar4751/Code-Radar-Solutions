@@ -10,7 +10,7 @@ int main(){
         if(a[i]%2==0 && a[i]>k){
             k=a[i];
         }
-    }if(k==0){
+    }if(k==-100){
         printf("-1");
         return 0 ;
     }
