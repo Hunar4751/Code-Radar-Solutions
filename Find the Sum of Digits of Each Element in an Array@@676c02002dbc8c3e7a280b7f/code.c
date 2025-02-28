@@ -1,4 +1,4 @@
-#inlude <stdio.h>
+#include <stdio.h>
 int main(){
     int n,k,d sum = 0;
     scanf("%d",&n);
