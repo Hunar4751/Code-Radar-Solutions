@@ -16,7 +16,7 @@ int main(){
         k = k/10;
         }
         if(sum<0){
-            sum = sum * -1
+            sum = sum * -1;
         }
         printf("%d ",sum);
     }
