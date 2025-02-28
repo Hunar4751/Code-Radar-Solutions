@@ -13,8 +13,8 @@ int main(){
                k=1;
             }
         }
-        if(k){
-                        printf("%d ",a[i]);
+        if(k==1){
+             printf("%d ",a[i]);
 
         }
     }
