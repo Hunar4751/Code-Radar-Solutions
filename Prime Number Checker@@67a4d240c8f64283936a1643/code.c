@@ -1,3 +1,3 @@
 int isPrime(){
-    return o;
+    return 1;
 }
