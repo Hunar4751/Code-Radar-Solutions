@@ -16,7 +16,7 @@ int main(){
         if(count <k){
             count =k;
             x=a[i];
-        }else if(count== k){
+        }else if(count== k && x!=a[i]){
             x=-1;
         }
         }
