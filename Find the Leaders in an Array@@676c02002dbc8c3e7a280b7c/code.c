@@ -10,7 +10,6 @@ int main(){
         for (int j =i;j<n;j++){
             if(a[i]>=a[j]){
                printf("%d",a[i]);
-               return 0;
             }
         }
     }
