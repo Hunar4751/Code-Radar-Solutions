@@ -1,0 +1,3 @@
+int isPrime(){
+    return o;
+}
