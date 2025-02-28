@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(){
-    int n,k;
+    int n,k,x=0,y=0;
     scanf("%d",&n);
     int a[n];
     for(int i =0;i<n;i++){
@@ -8,7 +8,7 @@ int main(){
     }scanf("%d",&k);
     for(int i =0;i<n;i++){
         for(int j =1+i;j<n;j++){
-        if(k== a[i]+a[j]&& (x!=a[i] && y!=a[j])){
+        if(k== a[i]+a[j]&& (x !=a[i] && y!=a[j])){
             x=a[i];
             y=a[j];
             printf("%d %d",a[i],a[j]);
