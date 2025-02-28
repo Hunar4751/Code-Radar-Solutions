@@ -16,7 +16,7 @@ int main(){
         if(count <k){
             count =k;
             x=a[i];
-        }elif(count== k){
+        }else if(count== k){
             x=-1;
         }
         }
