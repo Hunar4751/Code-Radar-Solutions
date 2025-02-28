@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(){
-    int n,k=0 ;
+    int n,k=-100 ;
     scanf("%d",&n);
     int a[n];
     for(int i =0 ; i <n; i++){
@@ -10,6 +10,10 @@ int main(){
         if(a[i]%2==0 && a[i]>k){
             k=a[i];
         }
-    }printf("%d",k);
+    }if(k==0){
+        printf("-1");
+        return 0 ;
+    }
+    printf("%d",k);
     return 0;
 }
