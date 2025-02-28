@@ -9,8 +9,8 @@ int main() {
     }k =a[0];
     d=k;
     for (int j = 0 ;j<n-1;j++){
-        if(a[i]<k){
-            k=a[i];
+        if(a[j]<k){
+            k=a[j];
         }
     }
     for (int j = 0 ;j<n-1;j++){
