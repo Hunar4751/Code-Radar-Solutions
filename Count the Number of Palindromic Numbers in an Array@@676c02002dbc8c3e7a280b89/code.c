@@ -9,7 +9,7 @@ int chkpalindrome(int num,int end){
     int start = 0;
 }
 int main(){
-    int n,k=0;
+    int n,l,k=0;
     scanf("%d",&n);
     int arr[n];
     for (int i=0;i<n;i++){
