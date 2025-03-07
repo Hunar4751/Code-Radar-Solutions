@@ -3,6 +3,14 @@ int main(){
     int a,b;
     char c;
     scanf("%d %d %c",&a,&b,&c);
-    result = a c b;
+    if(c=='+'){
+         result = a + b;
+    }else if(c=='-'){
+         result = a - b;
+    }else if(c=='*'){
+         result = a *b;
+    }else if(c=='/'){
+         result = a/ b;
+    }
     printf("%d",result);
 }
