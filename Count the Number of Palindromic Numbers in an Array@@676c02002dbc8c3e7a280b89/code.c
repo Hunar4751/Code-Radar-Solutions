@@ -5,7 +5,7 @@ int length(int num){
     return 1+length(num/10);}
 }
 
-int chkpalindrome(,int num,int end){
+int chkpalindrome(int num,int end){
     int start = 0;
 }
 int main(){
