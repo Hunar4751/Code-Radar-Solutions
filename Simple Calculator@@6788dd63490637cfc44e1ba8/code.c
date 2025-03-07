@@ -13,8 +13,10 @@ int main(){
     }else{
         if(b!=0){
          result = a/ b;}
-    }else{
+         else{
         printf("error");
+        return 0;
+    }
     }
     printf("%d",result);
     return 0;
