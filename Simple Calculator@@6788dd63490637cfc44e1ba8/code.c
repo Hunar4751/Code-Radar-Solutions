@@ -13,6 +13,8 @@ int main(){
     }else{
         if(b!=0){
          result = a/ b;}
+    }else{
+        printf("error");
     }
     printf("%d",result);
     return 0;
