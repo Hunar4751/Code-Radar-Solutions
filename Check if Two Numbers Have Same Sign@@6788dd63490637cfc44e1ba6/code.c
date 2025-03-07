@@ -2,7 +2,7 @@
 int main(){
     int a,b;
     scanf("%d %d",&a,&b);
-    if(abs(a+b) > abs(a)){
+    if(a*b  >= 0){
         printf("Same Sign");
     }else{
         printf("Different Sign");
