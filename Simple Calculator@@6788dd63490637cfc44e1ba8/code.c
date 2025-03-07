@@ -11,7 +11,8 @@ int main(){
     }else if(c=='*'){
          result = a *b;
     }else{
-         result = a/ b;
+        if(b!=0){
+         result = a/ b;}
     }
     printf("%d",result);
     return 0;
