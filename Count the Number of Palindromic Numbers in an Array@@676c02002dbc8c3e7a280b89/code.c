@@ -17,7 +17,7 @@ int main(){
     }
     for(int i =0;i<n;i++){
         l=length(arr[i]);
-        k+=chkpalindrome(arr[i],l);
+        k+=chkpalindrome(arr,l);
     }
     return 0;
 }
