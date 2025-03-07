@@ -9,8 +9,9 @@ int main(){
          result = a - b;
     }else if(c=='*'){
          result = a *b;
-    }else if(c=='/'){
+    }else{
          result = a/ b;
     }
     printf("%d",result);
+    return 0;
 }
