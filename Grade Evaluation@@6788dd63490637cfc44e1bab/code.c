@@ -13,7 +13,7 @@ int main() {
     }else if (c == 'F') {
         printf("Fail");
     }else {
-        printf("Invalid input");
+        printf("Invalid grade");
     }
 
     return 0;
