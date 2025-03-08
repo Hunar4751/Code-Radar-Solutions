@@ -8,6 +8,11 @@ int main(){
     }
     for (int i=0;i<n;i++){
         c=1;
+        for(int j =0;j<k;j++){
+            if(a[i]==b[j]){
+                continue;
+            }
+        }
         for(int j=0;j<n;j++){
             if(i!=j && a[i]==a[j]){
                 c+=1;
@@ -15,9 +20,6 @@ int main(){
                 k++;
             }
         }
-        for(int j=0;j<k;j++){
-            if(a[i]!=b[j])
-        printf("%d %d \n",a[i],c);}
     }
     return 0;
 }
