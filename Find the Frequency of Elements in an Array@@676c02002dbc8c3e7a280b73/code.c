@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(){
-    int n,k =0,c=1;
+    int n,k =0,c=1,p=0;
     scanf("%d",&n);
     int a[n],b[n];
     for(int i =0 ; i <n; i++){
@@ -10,8 +10,12 @@ int main(){
         c=1;
         for(int j =0;j<k;j++){
             if(a[i]==b[j]){
-                continue;
+                p=1;
+                break;
             }
+        }
+        if(p==1){
+            continue;
         }
         for(int j=0;j<n;j++){
             if(i!=j && a[i]==a[j]){
