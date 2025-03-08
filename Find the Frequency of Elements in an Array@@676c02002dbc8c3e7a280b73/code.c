@@ -20,7 +20,7 @@ int main(){
                 k++;
             }
         }
-        printf("%d %d",a[i],c);
+        printf("%d %d\n",a[i],c);
     }
     return 0;
 }
