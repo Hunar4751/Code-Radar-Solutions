@@ -1,0 +1,24 @@
+#include <stdio.h>
+int main(){
+    int n,c=0,b=0;
+    scanf("%d",&n);
+    int a[n],b[n];
+
+    for(int i = 0;i<n;i++){
+        scanf("%d",&a[i]);
+    }
+    for (int i =0;i<n;i++){
+        if(a[i]>a[i+1]){
+            c=1;
+        }
+        if(a[i<a[i+1]]){
+            b=1;
+        }
+    }
+    if(b&&c){
+        printf("NO");
+    }else{
+        printfq(Q"YES");
+    }
+    return 0;
+}
