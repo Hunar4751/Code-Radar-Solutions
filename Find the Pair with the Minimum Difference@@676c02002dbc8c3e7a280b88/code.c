@@ -31,7 +31,7 @@ int main(){
             }
         }
     }
-    if(x>p){
+    if(x<p){
     if(x<y)
     printf("%d %d",x,y);
     else
