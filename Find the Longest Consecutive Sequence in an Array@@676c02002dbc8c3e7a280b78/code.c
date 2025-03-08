@@ -15,7 +15,7 @@ int main() {
                 a[j+1]=k;
             }
         }
-    }
+    
 
 
         for(int j=0;j<n-1;j++){
