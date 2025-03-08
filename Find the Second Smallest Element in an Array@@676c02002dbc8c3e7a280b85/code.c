@@ -16,6 +16,11 @@ int main() {
             }
         }
     }
-    printf("%d",a[1]);
+    for(int i=0;i<n;i++){
+        if(a[0]!=a[i]{
+            printf("%d",a[i]);
+            return 0;
+        })
+    }printf("-1");
     return 0;
 }
