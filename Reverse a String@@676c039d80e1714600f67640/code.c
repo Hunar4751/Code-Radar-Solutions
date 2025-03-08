@@ -10,6 +10,6 @@ int main(){
     k[i]=str[d];
     d+=1;
    }
-   printf("%s",l);
+   printf("%s",k);
     return 0;
 }
