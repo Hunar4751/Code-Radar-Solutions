@@ -12,6 +12,16 @@ int main(){
         scanf("%d",&a[i]);
     }
 
+    for(int i=0;i<n-1;i++){
+        for (int j =0 ;j-1-i;j++){
+            int t;
+            if(a[j]>a[j+1]){
+                t=a[j];
+                a[j]=a[j+1];
+                a[j+1]=t;
+            }
+        }
+    }
 
     for (int i =0;i<n;i++){
         for(int j =0 ; j<n;j++){
@@ -24,23 +34,24 @@ int main(){
                     count = k;
                     x=a[i];
                     y=a[j];
-                }else if(count==k){
-                    p=a[i];
-                    q=a[j];
                 }
+                // else if(count==k){
+                //     p=a[i];
+                //     q=a[j];
+                // }
             }
         }
     }
-    if(x<p){
-    if(x<y)
-    printf("%d %d",x,y);
-    else
-    printf("%d %d",y,x);}
-    else{
-     if(p<q)
-    printf("%d %d",p,q);
-    else
-    printf("%d %d",q,p);}   
+    // if(x<p){
+    // if(x<y)
+    // printf("%d %d",x,y);
+    // else
+    // printf("%d %d",y,x);}
+    // else{
+    //  if(p<q)
+    // printf("%d %d",p,q);
+    // else
+    // printf("%d %d",q,p);}   
     
     return 0;
 }
