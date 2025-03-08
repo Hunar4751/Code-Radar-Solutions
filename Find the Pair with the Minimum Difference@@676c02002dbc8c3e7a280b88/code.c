@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(){
-    int n,x,y,k,a=-1000,b=-1000;
+    int n,x,y,k,p=-1000,q=-1000;
     int count =1000;
     scanf("%d",&n);
     if (n ==1){
@@ -25,22 +25,22 @@ int main(){
                     x=a[i];
                     y=a[j];
                 }else if(count==k){
-                    a=a[i];
-                    b=a[j];
+                    p=a[i];
+                    q=a[j];
                 }
             }
         }
     }
-    if(x>a){
+    if(x>p){
     if(x<y)
     printf("%d %d",x,y);
     else
     printf("%d %d",y,x);}
     else{
-     if(a<b)
-    printf("%d %d",a,b);
+     if(p<q)
+    printf("%d %d",p,q);
     else
-    printf("%d %d",b,a);}   
-    }
+    printf("%d %d",p,q);}   
+    
     return 0;
 }
