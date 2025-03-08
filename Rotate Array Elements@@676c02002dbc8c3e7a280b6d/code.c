@@ -10,7 +10,7 @@ int main() {
     }
     scanf("%d",&k);
     for(int i = 0 ; i <n;i++){
-        b[i] = a[(i+k)%n];
+        b[(i+k)%n] = a[i];
         }
         
  
