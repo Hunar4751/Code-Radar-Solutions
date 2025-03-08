@@ -12,7 +12,7 @@ int main(){
             k++;
         }        
     }
-    for(int i=k+1;i<n;i++){
+    for(int i=k;i<n;i++){
         a[i]=0;
     }
     for(int i =0 ; i <n; i++){
