@@ -1,19 +1,19 @@
 #include <stdio.h>
 int main(){
-    int n ;
+    int n,k =0;
     scanf("%d",&n);
     int a[n];
     for(int i =0 ; i <n; i++){
         scanf("%d",&a[i]);
     }
-    for (int i=0;i<n;i ++){ 
-        while(a[i]==0){
-            for(int j = i;j<n-1;j++){
-            a[j] = a[j+1];
-        }
-        a[n-1] = 0;
-        }
-        
+    for (int i=0;i<n;i++){
+        if(a[i]!=0){
+            a[k]=a[i];
+            k++;
+        }        
+    }
+    for(int i=k+1;i<n;i++){
+        a[i]=0;
     }
     for(int i =0 ; i <n; i++){
         printf("%d ",a[i]);
