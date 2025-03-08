@@ -40,7 +40,7 @@ int main(){
      if(p<q)
     printf("%d %d",p,q);
     else
-    printf("%d %d",p,q);}   
+    printf("%d %d",q,p);}   
     
     return 0;
 }
