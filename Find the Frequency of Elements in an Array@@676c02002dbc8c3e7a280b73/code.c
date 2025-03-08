@@ -8,6 +8,7 @@ int main(){
     }
     for (int i=0;i<n;i++){
         c=1;
+        p=0;
         for(int j =0;j<k;j++){
             if(a[i]==b[j]){
                 p=1;
