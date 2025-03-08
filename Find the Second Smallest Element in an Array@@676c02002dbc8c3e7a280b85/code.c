@@ -1,28 +1,21 @@
 #include <stdio.h>
 
 int main() {
-    int n ,k,d = -1;
+    int n,k;
     scanf("%d",&n);
     int a[n];
     for (int i = 0; i<n;i++){
         scanf("%d",&a[i]);
-    }k =a[0];
-    d=k;
-    for (int j = 0 ;j<n-1;j++){
-        if(a[j]<k){
-            k=a[j];
+    }
+    for(int i=0;i<n-1;i++)    {
+        for (int j=0;j<n-1-i;j++){
+            if(a[j]<a[j+1]){
+                k=a[j];
+                a[j]=a[j+1];
+                a[j+1]=k;
+            }
         }
     }
-    for (int j = 0 ;j<n-1;j++){
-        if(a[j]<k){
-            k=a[j];
-        }
-    }
-    for (int j = 0 ;j<n-1;j++){
-        if(a[j]<d && k>a[j]){
-            d=a[j];
-        }
-    }
-    printf("%d",d);
+    printf("%d",a[1]);
     return 0;
 }
