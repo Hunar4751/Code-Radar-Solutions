@@ -1,13 +1,14 @@
 #include <stdio.h>
 
 int chkpalindrome(int num){
-    int d,rev=0;
+    int d,rev=0,o;
+    o=num;
     while(num>0){
         d=num%10;
         rev=rev*10+d;
         num/=10;
     }
-    if(num==rev){
+    if(o==rev){
         return 1;
     }else{
         return 0;
