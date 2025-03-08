@@ -12,7 +12,7 @@ int main(){
        for(int j=0;j<=i;j++){
         k+=a[j];
        }
-       b[i]=k
+       b[i]=k;
     }
     for(int i = 0;i<n;i++){
         scanf("%d ",&b[i]);
