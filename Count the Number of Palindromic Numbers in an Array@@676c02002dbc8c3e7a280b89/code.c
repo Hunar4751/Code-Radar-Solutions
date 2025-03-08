@@ -1,32 +1,29 @@
 #include <stdio.h>
 
-int length(int num){
+int chkpalindrome(int num){
+    int d,rev;
     while(num>0){
-    return 1+length(num/10);}
-}
-
-int chkpalindrome(int num,int end){
-    int start = 0;
-    while (start<end){
-        if(num[start]!=num[end]){
-            return 0;
-        }
-        start++;
-        end--;
+        d=num%10;
+        rev+=rev*10+d;
+        num/=10;
     }
-    return 1;
+    if(num==rev){
+        return 1;
+    }else{
+        return 0;
+    }
+
 }
 int main(){
-    int n,l,k=0;
+    int n,k=0;
     scanf("%d",&n);
     int arr[n];
     for (int i=0;i<n;i++){
         scanf("%d",arr[i]);
     }
     for(int i =0;i<n;i++){
-        l=length(arr[i]);
-        k+=chkpalindrome(arr,l);
+        k+=chkpalindrome(arr);
     }
-    printf("%d",k)
+    printf("%d",k);
     return 0;
 }
