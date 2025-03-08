@@ -20,6 +20,7 @@ int main(){
                 k++;
             }
         }
+        printf("%d %d",a[i],c);
     }
     return 0;
 }
