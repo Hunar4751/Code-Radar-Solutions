@@ -9,16 +9,13 @@ int main() {
         scanf("%d",&a[i]);
     }
     scanf("%d",&k);
-    k=3;
     for(int i = 0 ; i <n;i++){
-       
         b[i] = a[(i+k)%n];
         }
         
  
     for(int i = 0 ;i<n;i++){
-        printf("%d",b[i]);
-        printf("\n");
+        printf("%d\n",b[i]);
     }
     return 0;
 }
