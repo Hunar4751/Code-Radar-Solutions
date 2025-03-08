@@ -9,13 +9,15 @@ int main(){
     for (int i=0;i<n;i++){
         c=1;
         for(int j=0;j<n;j++){
-            if(i!=j && a[i]==a[j]&&a[i]!=b[j]){
+            if(i!=j && a[i]==a[j]){
                 c+=1;
                 b[k]=a[i];
                 k++;
             }
         }
-        printf("%d %d \n",a[i],c);
+        for(int j=0;j<k;j++){
+            if(a[i]!=b[j])
+        printf("%d %d \n",a[i],c);}
     }
     return 0;
 }
