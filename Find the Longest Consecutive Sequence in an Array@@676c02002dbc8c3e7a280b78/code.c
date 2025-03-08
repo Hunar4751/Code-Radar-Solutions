@@ -8,13 +8,11 @@ int main() {
     for(int i=0;i<n;i++){
         scanf("%d",&b[i]);
     }
-    for(int i=0;i<n;i++){
-        for(int j=0;j<n;j++){
-            if(a[i]>a[j]){
-                k = a[i];
-                a[i]=a[j];
-                a[j]=k;
-
+        for(int j=0;j<n-1;j++){
+            if(a[j]>a[j+1]){
+                k = a[j];
+                a[j]=a[j+1];
+                a[j+1]=k;
             }
         }
     }
