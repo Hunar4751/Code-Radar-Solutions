@@ -7,6 +7,14 @@ int length(int num){
 
 int chkpalindrome(int num,int end){
     int start = 0;
+    while (start<end){
+        if(num[start]!=num[end]){
+            return 0;
+        }
+        start++;
+        end--;
+    }
+    return 1;
 }
 int main(){
     int n,l,k=0;
@@ -19,5 +27,6 @@ int main(){
         l=length(arr[i]);
         k+=chkpalindrome(arr,l);
     }
+    printf("%d",k)
     return 0;
 }
