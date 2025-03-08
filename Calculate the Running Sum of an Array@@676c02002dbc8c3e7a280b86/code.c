@@ -15,7 +15,7 @@ int main(){
        b[i]=k;
     }
     for(int i = 0;i<n;i++){
-        scanf("%d ",&b[i]);
+        printf("%d ",b[i]);
     }
     
     return 0;
