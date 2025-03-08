@@ -13,7 +13,7 @@ int main(){
                 c+=1;
             }
         }
-        printf("%d %d",a[i],c);
+        printf("%d %d \n",a[i],c);
     }
     return 0;
 }
