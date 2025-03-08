@@ -18,7 +18,7 @@ int main(){
     if(b&&c){
         printf("NO");
     }else{
-        printfq(Q"YES");
+        printf("YES");
     }
     return 0;
 }
