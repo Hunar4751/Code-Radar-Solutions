@@ -44,7 +44,7 @@ int main(){
     }
     // if(x<p){
     // if(x<y)
-    // printf("%d %d",x,y);
+    printf("%d %d",x,y);
     // else
     // printf("%d %d",y,x);}
     // else{
