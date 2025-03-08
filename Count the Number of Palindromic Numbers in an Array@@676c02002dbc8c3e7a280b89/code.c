@@ -23,7 +23,7 @@ int main(){
         scanf("%d",&arr[i]);
     }
     for(int i =0;i<n;i++){
-        k+=chkpalindrome(arr);
+        k+=chkpalindrome(arr[i]);
     }
     printf("%d",k);
     return 0;
