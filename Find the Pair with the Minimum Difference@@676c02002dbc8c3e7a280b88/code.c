@@ -35,23 +35,14 @@ int main(){
                     x=a[i];
                     y=a[j];
                 }
-                // else if(count==k){
-                //     p=a[i];
-                //     q=a[j];
-                // }
             }
         }
     }
-    // if(x<p){
-    // if(x<y)
-    printf("%d %d",x,y);
-    // else
-    // printf("%d %d",y,x);}
-    // else{
-    //  if(p<q)
-    // printf("%d %d",p,q);
-    // else
-    // printf("%d %d",q,p);}   
+    if(x<y){   
+     printf("%d %d",x,y);}
+    else{
+    printf("%d %d",y,x);}
+    
     
     return 0;
 }
