@@ -2,7 +2,7 @@
 int main(){
     int n,r[100],d=0;
     scanf("%d",&n);
-    while(n>1){
+    while(n>0){
         r[d]=n%2;
         n/=2;
         d++;
