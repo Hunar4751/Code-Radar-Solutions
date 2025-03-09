@@ -10,7 +10,7 @@ int main(){
     k[i]=str[d];
     d+=1;
    }
-   k[d]="\0";
+   k[d]='\0';
    printf("%s",k);
     return 0;
 }
