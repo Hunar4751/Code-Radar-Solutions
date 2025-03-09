@@ -7,7 +7,7 @@ int main(){
         n/=2;
         d++;
     }
-    for(int i=d;i>=0;i--){
+    for(int i=d-1;i>=0;i--){
         printf("%d",r[i]);
     }
 }
