@@ -8,6 +8,6 @@ int main(){
         d++;
     }
     for(int i=d-1;i>=0;i--){
-        printf("%c",r[i]);
+        printf("%d",r[i]);
     }
 }
