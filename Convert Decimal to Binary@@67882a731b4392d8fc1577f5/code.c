@@ -2,7 +2,7 @@
 int main(){
     int n,r[100],d=0;
     scanf("%d",&n);
-    if(r[0]==0){
+    if(n==0){
         printf("0");
         return 0;
     }
