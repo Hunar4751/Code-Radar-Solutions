@@ -11,7 +11,7 @@ int main(){
     d+=1;
    }
    k[d]='\0';
-   if(strcmp(str,k)==1){
+   if(strcmp(str,k)==0){
     printf("Yes");
    }else{
     printf("No");
