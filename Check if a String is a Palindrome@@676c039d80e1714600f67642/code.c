@@ -6,7 +6,7 @@ int main(){
     scanf("%s",str);
    int l = strlen(str);
    char k[l+1];
-   for(int i=l-1;i>=0;i++){
+   for(int i=l-1;i>=0;i--){
     k[d]=str[i];
     d+=1;
    }
