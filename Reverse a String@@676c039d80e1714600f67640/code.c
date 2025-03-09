@@ -7,7 +7,7 @@ int main(){
    int l = strlen(str);
    char k[l+1];
    for(int i=l-1;i>=0;i++){
-    k[i]=str[d];
+    k[d]=str[i];
     d+=1;
    }
    k[d]='\0';
