@@ -5,7 +5,7 @@ int main(){
      int is_negative = 0;
     if (n < 0) {
         is_negative = 1;
-        n = (n)*-1
+        n = (n)*-1;
     }
     while(n>0){
         d=(n%2)^1;
