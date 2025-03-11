@@ -5,7 +5,7 @@ int main(){
      int is_negative = 0;
     if (n < 0) {
         is_negative = 1;
-        n = ~(-n); 
+        n = (n)*-1
     }
     while(n>0){
         d=(n%2)^1;
@@ -14,7 +14,7 @@ int main(){
         n=n/2;
     }
     if (is_negative) {
-        r = ~r; 
+        r = ~r+1; 
     }
     printf("%d",r);
     return 0;
