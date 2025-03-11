@@ -9,7 +9,7 @@ int main(){
         }else{
             d=n%2;
         }
-        r=r*10+d*p;
+        r+=d*p;
         p*=2;
         n=n/2;
         l++;
