@@ -1,15 +1,14 @@
 #include <stdio.h>
 int main(){
-    int n,r=0,d,p=1;
-    scanf("%d",&n);
-    if(n<0){
-        n=~n;
+    int n,k,r=0,l=0,d,p=1;
+    scanf("%d %d",&n,&k);
+    while(n>0){
+        d=(n%2)^1;
+        r+=d*p;
+        p*=2;
+        n=n/2;
+        l++;
     }
-   for(int i=0;i<n;n=n/2){
-   
-    d=(n%2)^1;
-    r+=d*p;
-    p*=2;
-   }printf("%d",r);
+    printf("%d",r);
     return 0;
 }
