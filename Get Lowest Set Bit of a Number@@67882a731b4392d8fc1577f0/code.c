@@ -1,8 +1,8 @@
 #include <stdio.h>
 int main(){
-    int n,r=0;
+    int n;
     scanf("%d",&n);
-   for(int i=0;i<3n;n=n/2){
+   for(int i=0;i<3*n;n=n/2){
     if(n%2==1){
         printf("%d",i);
         break;
