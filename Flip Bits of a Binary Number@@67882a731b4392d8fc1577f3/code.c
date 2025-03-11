@@ -2,6 +2,9 @@
 int main(){
     int n,r=0,d,p=1;
     scanf("%d",&n);
+    if(n<0){
+        n=~n;
+    }
    for(int i=0;i<n;n=n/2){
    
     d=(n%2)^1;
