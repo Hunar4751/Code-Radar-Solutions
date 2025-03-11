@@ -1,8 +1,8 @@
 #include <stdio.h>
 int main(){
-    int n,k,r=0,l=0,d=1,p=1;
+    int n,k,r=0,l=0,d,p=1;
     scanf("%d %d",&n,&k);
-    while(n>0){
+    while(n>0||l<=k){
         
         if(l==k){
             d=(n%2);
