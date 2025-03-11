@@ -1,27 +1,18 @@
 #include <stdio.h>
 int main(){
-    int n,k,r=0,d,l=0;
+    int n,k,r=0,d,p=1;
     scanf("%d %d",&n,&k);
     while(n>0){
-        d=n%2;
+        
         if(l==k){
-            r=r*10;
-            continue;
+            d=0;
         }else{
-        r=r*10+d;
-
+            d=n%2;
         }
+        r=r*10+d*p;
+        p*=2;
         n=n/2;
-        l++;
     }
-    l=1;
-    n=0;
-    while(r>0){
-        d=r%2;
-        n=n*10+d*l;
-        r=n/2;
-        l*=2;
-    }
-    printf("%d",n);
+    printf("%d",r);
     return 0;
 }
