@@ -16,7 +16,7 @@ int main(){
     }
     l=1;
     n=0;
-    while(n>0){
+    while(r>0){
         d=r%2;
         n=n*10+d*l;
         r=n/2;
