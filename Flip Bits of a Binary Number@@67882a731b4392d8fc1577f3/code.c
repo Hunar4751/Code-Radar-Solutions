@@ -2,7 +2,7 @@
 int main(){
     int n,k,r=0,l=0,d,p=1;
     scanf("%d",&n);
-    while(n>0||l<=k){
+    while(n>0){
         d=n%2;
         k=~d;
         r+=k*p;
