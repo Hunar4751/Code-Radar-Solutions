@@ -12,7 +12,6 @@ int main(){
         r+=d*p;
         p*=2;
         n=n/2;
-        l++;
     }
     if (is_negative) {
         r = ~r; 
