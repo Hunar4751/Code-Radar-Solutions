@@ -5,8 +5,7 @@ int main(){
     while(n>0){
         
         if(l==k){
-            int x=(n%2);
-            d=~x;
+            d=(n%2)^1;
         }else{
             d=n%2;
         }
