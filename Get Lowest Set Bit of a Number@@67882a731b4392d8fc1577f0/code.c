@@ -5,6 +5,7 @@ int main(){
    for(int i=0;i<n;n=n/2){
     if(n%2==1){
         printf("%d",r);
+        break;
     }r++;
    }
     return 0;
