@@ -12,7 +12,7 @@ int bubbleSort(int arr[],int n){
     return arr[n];
 }
 
-void findUnsortedSubarray(int arr[],int n){
+int findUnsortedSubarray(int arr[],int n){
     int t=0;
     int k[]=bubbleSort(arr,n);
     for(int i=0;i<n;i++){
