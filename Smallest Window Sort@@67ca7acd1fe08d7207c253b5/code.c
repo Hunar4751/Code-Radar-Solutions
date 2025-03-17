@@ -9,7 +9,7 @@ int bubbleSort(int arr[],int n){
             }
         }
     }
-    return arr[];
+    return arr[n];
 }
 
 void findUnsortedSubarray(int arr[],int n){
