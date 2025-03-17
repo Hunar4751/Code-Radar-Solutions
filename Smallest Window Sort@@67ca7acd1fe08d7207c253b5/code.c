@@ -16,7 +16,7 @@ void findUnsortedSubarray(int arr[],int n){
     int t=0;
     int k[]=bubbleSort(arr,n);
     for(int i=0;i<n;i++){
-        if(a[i]!=k[i]){
+        if(arr[i]!=k[i]){
             t++;}}
     return t;
 }
